@@ -1,0 +1,24 @@
+body{
+	background-color: black;
+}
+/*Se colocar somente:
+h1{
+	color:red;
+}
+todos os dois h1 vão ficar vermelhos*/
+/*Pode fazer desta forma: 
+#div1 > h1{
+	color: red;
+}
+Colocando o sinal de maior quer dizer: ataque o h1 se ele estiver dentro da div com o id de número 1. Se houver outra div e o h1 não estiver dentro da div1, não funciona!*/
+/*Para fazer o estilo funcionar para todos os que estão dentro da div1, é só tirar o sinal de >*/
+/*Coloca o símbolo # para chamar a id e o símbolo . para chamar a classe. O resultado será o mesmo*/
+#div1 h1{
+	color: red;
+}
+#div2 h1{
+	color: yellow;
+}
+/*Diferença entre id e classe:
+id: Se utilizar id, o nome dos id's tem que ser diferentes
+classe: Se utilizar classe, o nome dos id's pode ser igual.*/
