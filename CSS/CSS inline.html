@@ -1,27 +1,37 @@
+<!--3 formas de inserção do CSS no HTML:
+1- CSS inline;
+2- CSS interno;
+3- CSS externo. 
+-->
 <!DOCTYPE html>
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Brincando de HTML</title>
+        <title>CSS inline</title>
     </head>
     <body>
         <!--Headings-->
-        <h1>League of Legends</h1>
+
+        <!-- CSS inline, atributo style-->
+        <h1 style="color: red; background-color: yellow; font-size: 14px;">League of Legends</h1>
+        
         <h2>Publicações importantes</h2>
-        <img src="https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltcfa4652c8d383f56/5e21837f63d1b6503160d39b/Home-page.jpg" alt="Imagem do Legaue of Legends" width="200px">
+        <img src="https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltcfa4652c8d383f56/5e21837f63d1b6503160d39b/Home-page.jpg" alt="Imagem do League of Legends" width="200px">
                
         <!--Parágrafos-->
         <p>Era uma vez...</p>
         <P>...FIM DA HISTÓRIA</P>
        
         <!--Ancorar - Inserir links. Tag de quebra de linha é 'br'-->
-        <a href="https://www.google.com.br">Google</a>
+        <a href="https://www.google.com.br" style="font-size: 30px;">Google</a>
         <br><br> <!--Pulando duas linhas-->
 
         <!--Inserir imagens. Usa-se o atributo'alt' como uma alternativa em texto para imagens, caso não exista conexão com a internet-->
         <!--O atributo 'alt' também ajuda pessoas com deficiência visual - Inclusão.-->
         <!--Tag de quebra de linha é 'br'-->
-        <img src="https://www.google.com.br/google.jpg" alt="Logo do Google"/>
+
+        <!--CSS inline diminuir tamanho da imagem-->
+        <img src="https://www.google.com.br/google.jpg" alt="Logo do Google" style="width:100px"/>
         <br><br> <!--Pulando duas linhas-->
         
         <!--Inserir botões-->

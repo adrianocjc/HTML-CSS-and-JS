@@ -1,0 +1,21 @@
+ <!--CSS externo-->
+ <style>
+    h1{ 
+        color: blue; 
+        font-size: 15px; 
+        background-color: yellowgreen;
+    }
+    a{
+        color: green; 
+        font-size: 30px; 
+        background-color: indianred;
+    }
+    img{
+        width: 500px;
+    }
+    ul{
+        font: bold; 
+        color: yellow;
+        background-color: black;
+    }
+</style>
