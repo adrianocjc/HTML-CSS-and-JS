@@ -1,0 +1,20 @@
+/*Formas de selecionar um objeto no CSS*/
+/*Existem 3 formas de seleção. a primeira é utilizando o título de cada linha, 'h1' por exemplo,
+a outra é utilizando o 'id', e a outra é utilizando o 'class'*/
+/*Segue a primeira forma*/
+/*Qualquer tag como o nome 'img' sofre alterção*/
+img{
+    width: 300px
+}
+/*A segunda é utilizando o 'id'*/
+/*Só pode ser utilizado um nome para o 'id'*/
+#título{
+    color: green;
+}
+/*A terceira forma é utilizando 'class'*/
+/*Perceba que a forma de chamar o class é diferente*/
+/*Pode-se utilizar o class para quelquer elemento o class com o mesmo nome*/
+.texto{
+    color: red;
+}
+
