@@ -17,4 +17,16 @@ img{
 .texto{
     color: red;
 }
-
+/*Unindo seleções*/
+/* Faz da seguinte forma:
+#titulo, .texto{
+    color: blue;
+    font-size: 25px;
+}*/
+/*Selecionando um elemento dentro do outro:
+Se colocar uma vírgula depois do 'ol', a seleção ocorrerá nos dois,
+mas como não tem vírgula, a seleção ocorrerá apenas no 'li'.
+ol li{
+    color: pink;
+}
+*/
