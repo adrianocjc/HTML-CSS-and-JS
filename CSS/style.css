@@ -1,0 +1,15 @@
+/*Esta forma de representação significa dizer 
+que: ataque o h1 somente se ele estiver dentro 
+da div com id número 1*/
+/*Aqui é chamando o 'id'*/
+#div1 > h1 {
+	color: blue;
+	font-size: 20px;
+	font-style: normal;
+}
+/*Aqui é chamando a classe*/
+.div2{
+	color:red;
+	font-size: 20px;
+	font-style: italic;
+}
