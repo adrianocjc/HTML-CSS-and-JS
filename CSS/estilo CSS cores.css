@@ -1,0 +1,47 @@
+/*Formas de selecionar um objeto no CSS*/
+/*Existem 3 formas de seleção. a primeira é utilizando o título de cada linha, 'h1' por exemplo,
+a outra é utilizando o 'id', e a outra é utilizando o 'class'*/
+/*Segue a primeira forma*/
+/*Qualquer tag como o nome 'img' sofre alterção*/
+img{
+    width: 300px
+}
+/*A segunda é utilizando o 'id'*/
+/*Só pode ser utilizado um nome para o 'id'*/
+#título{
+/*Forma básica de definir cores    
+    background-color: yellow;
+*/
+/*Outros métodos para definir cores*/ 
+/*100% das cores equivale ao número 255 e não 100*/   
+/*    background-color: rgb(100, 2, 100);   */
+
+/*Terceira forma para definir cor: Hexadecimal, que vai de 0 a 9 e de A a F*/
+    background-color: #89C781;    
+/*O restante*/    
+    color: blue;
+    margin: 0 auto;
+    padding: 30px;
+    text-align: center;
+    font-size: 40px;
+    border: 3px solid blue;
+}
+/*A terceira forma é utilizando 'class'*/
+/*Perceba que a forma de chamar o class é diferente*/
+/*Pode-se utilizar o class para quelquer elemento o class com o mesmo nome*/
+.texto{
+    color: red;
+}
+/*Unindo seleções*/
+/* Faz da seguinte forma:
+#titulo, .texto{
+    color: blue;
+    font-size: 25px;
+}*/
+/*Selecionando um elemento dentro do outro:
+Se colocar uma vírgula depois do 'ol', a seleção ocorrerá nos dois,
+mas como não tem vírgula, a seleção ocorrerá apenas no 'li'.
+ol li{
+    color: pink;
+}
+*/
