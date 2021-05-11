@@ -1,0 +1,24 @@
+/*Zerando a margem do body, que é inserida automaticamente,
+mesmo sem definir a margem*/
+body{
+    margin: 0px;
+}
+.exemplo {
+    background-color: #000000;
+    width: 100%;
+    height: 100px;
+}
+/*Padding = espaçamento interno
+  Margin = Espaçamento externo
+  Pode-se colocar o padding em uma direção específica, mas sempre se referir a todos os sentidos
+  do padding, sempre se referir no sentido horário, ou seja, em cima, direita, em baixo e esquerda.
+  A forma de se referir a todos os sentidos é assim: padding: 10px 50px 10px 20px, referindo-se aos sentidos 
+  apresentados anteriormente. Se colocar apenas dois, ele vai aplicar da seguinte forma: 10px 50px (Acima e
+  abaixo 10px, esquerda e direita 50px)*/
+img {
+    width: auto;
+}
+/*Width: pode ser 'auto', ou seja, se ajusta o máximo que puder. Pode-se definir das seguintes formas: 
+auto, 100px, 100% (porcentagem da largura da tela), inherit (herda a mesma largura do item anterior,
+mas tem de estar dentro da <div>).  Pode-se usar max-width para determinar o máximo da largura do item
+e min-width para determinar o mínimo do tamanho da imagem. */
