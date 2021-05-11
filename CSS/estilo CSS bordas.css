@@ -1,0 +1,28 @@
+#título {
+    color: blue;
+    font-style: italic;
+    background-color:yellow;
+    border: 5px solid rgb(238, 5, 5);
+}
+/*Para fazer bordas, dividir em partes: tamanho da borda (em pixels), tipo da borda 
+(solid, dotted 'pontilhada', dashed 'tracejada', double 'dois traços', groove, inset, outset, no border, etc...), */ 
+p{
+    background-color: yellow;
+    border: 5px solid blue;
+    border-radius: 5px;
+    text-align: center;
+}
+/*border-radius: borda arredondada*/
+div {
+    background-color: lightgreen;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    border: solid darkgreen;
+}
+/*O raio para as bordas precisam ser a metade do tamanho da altura e largura, para ficar um círculo*/
+#segunda {
+    border: solid red;
+    border-radius: 30px;
+}
+
