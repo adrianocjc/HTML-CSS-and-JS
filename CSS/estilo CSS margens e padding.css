@@ -1,4 +1,19 @@
+/*Zerando a margem do body, que é inserida automaticamente,
+mesmo sem definir a margem*/
+body{
+    margin: 0px;
+}
 div{
     border: solid rgb(107, 226, 159);
+    padding: 10px;
+    margin: 50px;
+    text-align: center;
 }
+/*Padding = espaçamento interno
+  Margin = Espaçamento externo
+  Pode-se colocar o padding em uma direção específica, mas sempre se referir a todos os sentidos
+  do padding, sempre se referir no sentido horário, ou seja, em cima, direita, em baixo e esquerda.
+  A forma de se referir a todos os sentidos é assim: padding: 10px 50px 10px 20px, referindo-se aos sentidos 
+  apresentados anteriormente. Se colocar apenas dois, ele vai aplicar da seguinte forma: 10px 50px (Acima e
+  abaixo 10px, esquerda e direita 50px)*/
 
