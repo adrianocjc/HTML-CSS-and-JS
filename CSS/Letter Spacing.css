@@ -1,0 +1,39 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/*Estilo para o conteúdo do nosso site*/
+
+.artigo{
+	width: 1280px;
+	background-color:#47499e;
+	padding: 40px;
+	margin: 40px auto;
+	text-align: center;
+}
+
+.artigo h1{
+	color: rgb(66, 149, 244);
+	font-size: 23px; /*Pode-se colocar '1em'
+que significa 100%*/
+	font-family: 'tahoma'; /*Colocam-se
+mais de uma fonte porque se o navegador não encontra uma
+delas, ele encontra outra e assim por diante.
+Fontes que tem mais de uma palavra, usa-se as aspas
+nela. Ex.: "Times new roman".*/
+	font-style: italic;
+	font-weight: normal;
+	font-variant: small-caps; /*Revisar*/
+}	
+
+.artigo p{
+	color:#b4b4b4;
+	text-align: justify;
+	font-size: 17px;
+	font-family: 'tahoma';
+	font-style: normal;
+	font-weight: bold;
+	line-height: 40px;/*Espaçamento entre as linhas*/
+	margin-top: 20px;
+}
