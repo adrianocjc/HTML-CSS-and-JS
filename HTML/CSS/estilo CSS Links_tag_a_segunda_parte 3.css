@@ -12,3 +12,14 @@ sempre são colocadas praticamente como padrão*/
     color: green;
     font-size: 40px;
 }
+.link:hover{
+    color: red;
+}
+/*O estilo 'hover' é aplicado somente quando o usuário passar o mouse em cima da parte específica,
+ou seja, quando o usuário passar o mouse, a cor do link ficará vermelho, porém a cor original é verde
+(MUITO INTERESSANTE)*/
+/*
+.link:visited{
+    color: pink;
+}
+Esta outra situação significa que quando o link já foi acessado, ele fica rosa*/
