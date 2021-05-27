@@ -1,0 +1,14 @@
+/*Zerando a margem do body, que é inserida automaticamente,
+mesmo sem definir a margem*/
+* {
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+}
+/*Estas duas propriedades anteriores (box-sizing: border-box; e margin: 0px;) 
+sempre são colocadas praticamente como padrão*/
+.link {
+    color: green;
+    font-size: 40px;
+}
