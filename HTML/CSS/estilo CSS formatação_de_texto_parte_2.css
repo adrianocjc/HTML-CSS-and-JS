@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;   
+  }
+  body{
+      margin: 50px;
+      font-size: 17px;
+  }
+  
+p {
+    color: #0000ff;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify; 
+    /*
+    text-transform: capitalize;
+    letter-spacing: 2px; Espaçamento entre letras
+    word-spacing: 5px;
+    line-height: 40px; Espaçamento entre linhas*/
+    text-shadow: 2px 3px 4px green; /*Sombra no texto. Cada um dos itens significa o seguinte: 
+    1º Distância para a direita, 2º Distância para baixo, 3º Espeço de esfumaçamento da cor, 4º Cor*/
+} 
