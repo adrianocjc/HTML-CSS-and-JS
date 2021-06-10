@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;   
+  }
+  body{
+      margin: 50px;
+      font-size: 17px;
+  }
+h1 {
+    font-family: 'Indie Flower', cursive; /*Fonte que foi importada do Google Fonts*/
+}  
+ul {
+    color: #0000ff;
+    font-size: 20px;
+    font-family: 'Chilanka', cursive; /*Fonte que foi importada do Google Fonts*/
+    text-align: justify;
+    font-weight: bold;
+}
+ol {
+    color: red;
+    font-size: 20px;
+    font-family: 'Chilanka', cursive; /*Fonte que foi importada do Google Fonts*/
+    text-align: justify;
+    font-weight: bold;
+} 

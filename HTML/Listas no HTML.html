@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!--Principais Tags de formatação de texto no HTML-->
+		<meta charset="utf-8" />
+		<title>Listas no HTML</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <!--Link para importar fontes externas. Precisa ir no Google Fonts (site)-->
+        <link href="https://fonts.googleapis.com/css2?family=Chilanka&family=Indie+Flower&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="css/estilo CSS listas_no_HTML.css" />
+	</head>
+	<body>
+		
+        <h1>Listas no HTML</h1>
+
+        <!--Lista desordenada. Não aparecem números antes das palavras, somente símbolos-->
+       <ul style="list-style-type:circle;"> <!--Estilo do símbolo. Existem vários estilos-->
+           <li>Café</li>
+           <li>Chá</li>
+           <li>Leite</li>
+       </ul>
+    <!--Lista ordenada. Aparecem números antes das palavras.-->
+       <ol type="1" start="12">
+        <!--Pode mudar de números para outros tipos como letras, algarismos romanos, etc... É só digitar o type.
+        Para mudar de qual númeroiniciar, é só digitar o start-->
+            <li>Café</li>
+            <li>Chá</li>
+            <li>Leite</li>  
+       </ol> 
+        <!--Lista desordenada. Não aparecem números antes das palavras, somente símbolos-->
+        <ul><!--Nested list - Lista dentro de lista. Os símbolos de organizção mudam para uma melhor visualização--> 
+            <li>Café</li>
+            <ul>
+                <li>Chá</li>
+                    <ul>
+                        <li>Chá preto</li>
+                        <li>Chá verde</li>
+                            <ul>
+                                <li>Tipo 1</li>
+                                <li>Tipo 2</li>
+                            </ul>
+                    </ul>
+                <li>Leite</li>
+            </ul>
+            
+        </ul>      
+       
+    </body>
+</html>
