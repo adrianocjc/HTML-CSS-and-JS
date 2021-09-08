@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;   
+  }
+  body{
+      margin: 50px;
+      font-size: 20px;
+      background-color: rgb(255, 242, 185);
+  }
+  #título_1 {
+      font-size: 60px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+      font-style: bold;
+      font-style: italic;
+      font-weight: inherit;
+      color: lightcoral;
+  }
+  #título_2 {
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+    font-style: bold;
+    font-style: italic;
+    font-weight: inherit;
+    color: rgb(255, 0, 149);
+}
+  #paragrafo_1{
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: inherit;
+    color: lightseagreen;
+}
