@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="utf-8">
+        <title>Contador while</title>
+    </head>
+    <body>
+
+    </body>
+
+    <script type="text/javascript">
+        var alunos = ['Alex', 'Anna', 'João']; // array de strings
+        alunos.push('Helena'); //Adicionando mais posições ao vetor
+        alunos.push('José', 'Maria'); //Adicionando mais posições ao vetor
+        alunos[alunos.length] = 'Joana'; //Adicionando mais posições ao vetor
+        alunos.splice(8,0,'Adriano'); //Adicionando mais posições ao vetor utilizando Splice na posição 8, sem apagar nenhum e adicionando o nome Adriano
+        alunos.splice(1,1,'Igor'); //Substituindo elementos do vetor na pocição 1 e apagando 1 elemento, que é Anna
+        delete alunos[0]; //Apagar um elemento do vetor, mas a posição permenece
+        alunos.pop(); //Remove o último elemento do vetor, atualizando o tamanho
+        alunos.shift(); //Remove p primeiro elemento do vetor, atualiza as posições e o tamanho
+        var tamanho = alunos.length; //Tamanho do vetor
+        for(var i = 0; i < alunos.length; i++){
+            alert('Nome do Aluno contido no Array: ' + alunos[i]);
+        }
+        alert('O tamanho do vetor é: ' + tamanho);
+        var primos = [2,3,5,7,11,13,17];
+        primos.splice(2,2); //Remoção de dois elementos, a partir do índice 2. O primeiro número indica o índice
+        //O segundo número indica a quantidade a ser removida, a partir da posição incidada no primeiro valor
+        alert('Os novos números agora são: ' + primos); //imprimirá 2,3,11,13,17
+        var primos = [2,3,5,7,11,13,17];
+        alert(primos.length); //imprimirá 7
+        primos.length = 4;
+        alert(primos.length); //imprimirá 4
+        //ao definirmos o tamanho do array como 4, este será reduzido, sendo mantidos os elementos do índice 0 ao 3 e excluídos os demais.
+        
+    </script>
+</html>
