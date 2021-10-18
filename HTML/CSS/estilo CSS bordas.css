@@ -3,6 +3,7 @@
     font-style: italic;
     background-color:yellow;
     border: 5px solid rgb(238, 5, 5);
+    padding: 10px;
 }
 /*Para fazer bordas, dividir em partes: tamanho da borda (em pixels), tipo da borda 
 (solid, dotted 'pontilhada', dashed 'tracejada', double 'dois traços', groove, inset, outset, no border, etc...), */ 
@@ -11,6 +12,7 @@ p{
     border: 5px solid blue;
     border-radius: 5px;
     text-align: center;
+    padding: 10px;
 }
 /*border-radius: borda arredondada*/
 div {
@@ -21,8 +23,12 @@ div {
     border: solid darkgreen;
 }
 /*O raio para as bordas precisam ser a metade do tamanho da altura e largura, para ficar um círculo*/
-#segunda {
+#i2 {
     border: solid red;
+    border-radius: 30px;
+}
+#i1 {
+    border: solid #15ff00;
     border-radius: 30px;
 }
 

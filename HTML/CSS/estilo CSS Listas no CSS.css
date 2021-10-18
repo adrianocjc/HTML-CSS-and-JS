@@ -1,0 +1,57 @@
+*{
+	margin: 0;
+	padding: 0;
+    
+}
+/*Largura, por padrão, é 100%, mas a altura não*/
+html, body{
+    height: 100%;
+}
+.lista, .lista2{
+    list-style-position: inside;
+    list-style-type: circle;
+    margin-left: 20px;
+}
+.lista li, .lista2 li{
+    color: #1100ff;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.lista .item3, .lista2 .item3{
+    color: #ff0000;
+    font-weight: bold;
+}
+/*.lista li.item3{ Cuidado com a escrita
+    color: #ff00ff;
+}*/
+/*Quanto mais especificar a classe, maior prioridade ela terá*/
+ol{
+    list-style-position: inside;
+
+}
+ol > li{/*O sinal de maior '>' ataca apenas as li's que estão dentro da ol*/
+    color:#ff0000;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.um{
+    width: 500px;
+    height: 500px;
+    background: #ff0000;
+}
+.um > .dois{
+    width: 400px;
+    height: 400px;
+    background: #00ff00;
+}
+.um > .tres{
+    width: 300px;
+    height: 300px;
+    background: #0000ff;
+}
+.um > .tres > .quatro{/*O sinal de maior '>' só ataca se o item estiver diretamente dentro do que está sendo declarado*/
+    width: 200px;
+    height: 200px;
+    background: #d0d0e6;
+}
+

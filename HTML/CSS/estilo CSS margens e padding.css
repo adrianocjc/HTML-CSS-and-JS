@@ -2,11 +2,12 @@
 mesmo sem definir a margem*/
 body{
     margin: 0px;
+    padding: 0;
 }
 div{
     border: solid rgb(107, 226, 159);
     padding: 10px;
-    margin: 50px;
+    margin: 30px;
     text-align: center;
 }
 /*Padding = espaçamento interno

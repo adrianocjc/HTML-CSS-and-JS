@@ -1,10 +1,16 @@
 *{
-    box-sizing: border-box;   
+  margin: 0;
+  padding: 0;  
+  box-sizing: border-box;   
   }
-  body{
-      margin: 50px;
+  html{
+      height: auto;
+  } body{
+      margin: 20px;
       font-size: 20px;
-      background-color: rgb(255, 242, 185);
+      background-color: #fff2b9;
+      width: 100%;
+      height: auto;
   }
   #título_1 {
       font-size: 60px;
@@ -12,7 +18,7 @@
       font-style: bold;
       font-style: italic;
       font-weight: inherit;
-      color: lightcoral;
+      color: #f08080;
   }
   #título_2 {
     font-size: 30px;
@@ -20,11 +26,20 @@
     font-style: bold;
     font-style: italic;
     font-weight: inherit;
-    color: rgb(255, 0, 149);
+    color: #ff0095;
+    letter-spacing: 20px;
 }
   #paragrafo_1{
     font-size: 15px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-style: inherit;
-    color: lightseagreen;
+    color: #20b2ab;
+}
+#imagem_1{
+  width: 300px;
+  border: 3px solid #e783bd;
+  border-radius: 20px; 
+  display: block;    
+  margin-left: auto;
+  margin-right: auto;
 }

@@ -8,7 +8,11 @@ body{
 }
 /*Estas duas propriedades anteriores (box-sizing: border-box; e margin: 0px;) 
 sempre são colocadas praticamente como padrão*/
-.exemplo {
+.exemplo1 {
+    background-color: #0000ff;
+    height: 100px;    
+}
+.exemplo2 {
     background-color: greenyellow;
     width: 400px;
     height: 400px;
@@ -26,9 +30,9 @@ Para aplicar este efeito a todo elemento da tela, faz-se da seguinte forma:
 OBS.: Na verdade ele não tira o paddig e o border, ele desconta valores para que o elemento fique do tamanho
 especificado no width e height*/
 /*Padding = espaçamento interno
-  Margin = Espaçamento externo
-  Pode-se colocar o padding em uma direção específica, mas sempre se referir a todos os sentidos
-  do padding, sempre se referir no sentido horário, ou seja, em cima, direita, em baixo e esquerda.
-  A forma de se referir a todos os sentidos é assim: padding: 10px 50px 10px 20px, referindo-se aos sentidos 
-  apresentados anteriormente. Se colocar apenas dois, ele vai aplicar da seguinte forma: 10px 50px (Acima e
-  abaixo 10px, esquerda e direita 50px)*/
+Margin = Espaçamento externo
+Pode-se colocar o padding em uma direção específica, mas sempre se referir a todos os sentidos
+do padding, sempre se referir no sentido horário, ou seja, em cima, direita, em baixo e esquerda.
+A forma de se referir a todos os sentidos é assim: padding: 10px 50px 10px 20px, referindo-se aos sentidos 
+apresentados anteriormente. Se colocar apenas dois, ele vai aplicar da seguinte forma: 10px 50px (Acima e
+abaixo 10px, esquerda e direita 50px)*/
