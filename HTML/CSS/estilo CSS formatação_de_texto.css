@@ -18,4 +18,8 @@ a {
 }
 a:hover {
     text-decoration: underline;
+    color: #ff0000;
 } 
+h2{
+    font-weight: normal;
+}

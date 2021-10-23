@@ -43,3 +43,6 @@
   margin-left: auto;
   margin-right: auto;
 }
+.contato:hover{
+  color: #ff0000;
+}
