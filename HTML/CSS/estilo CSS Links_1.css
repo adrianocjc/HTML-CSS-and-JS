@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+}
+h1{
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #4a82d6;
+    font-style: italic;
+    font-weight: bold;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    border: 3px dotted #020269;
+}
+.link{
+    text-decoration: none;
+    font-size: 20px;
+    color: #146414;
+}
+.link:hover{
+    color: #ff0000;
+}
+/*.link:visited{
+    color: #0000ff;
+}
+Quando quiser mudar a cor dos links já visitados*/

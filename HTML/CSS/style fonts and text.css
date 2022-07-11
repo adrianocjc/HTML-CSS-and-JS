@@ -7,7 +7,7 @@
 
 .artigo{
 	width: 1280px;
-	background-color:#47499e;
+	background-color:#07095e;
 	padding: 40px;
 	margin: 40px auto;
 	text-align: center;
@@ -31,7 +31,7 @@ nela. Ex.: "Times new roman".*/
 	color:#b4b4b4;
 	text-align: justify;
 	font-size: 17px;
-	font-family: 'tahoma';
+	font-family: 'calibri';
 	font-style: normal;
 	font-weight: bold;
 	line-height: 40px;/*Espaçamento entre as linhas*/
