@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas</title>
+  </head>
+    <body>
+      <h1>Galáxias</h1>
+      <p>Conheça algumas galáxias</p>
+      <div style="background-color: blue;">
+        <p>Galáxia de <span style="color: yellow; font-size: large;">Andrômeda</span></p>
+        <p>Galáxia do Olho-negro</p>
+        <p>Galáxia do cata-vento</p>
+      </div>
+      <br>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Saturn_during_Equinox.jpg/300px-Saturn_during_Equinox.jpg" alt="Imagem de saturno">
+      <br>
+      <a target="_blank" href="https://pt.wikipedia.org/wiki/Saturno_(planeta)"><b>Saiba mais!</b></a>
+      <br>
+      <h1>Vamos para Titã</h1>
+      <a target="_self" href="titã.html">Titã</a>
+      <br><br>
+      <h1>Construindo uma tabela</h1>
+      <table border="1">
+        <caption><b>Satélites de Urano</b></caption>
+        <thead>
+          <tr>
+            <th>Nome</th>
+            <th>Data de descobrimento</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Titânia</td>
+            <td>1787</td>
+          </tr>
+          <tr>
+            <td>Oberon</td>  
+            <td>1787</td>
+          </tr>
+        </tbody>       
+      </table>
+      <h1>Construindo uma tabela 2</h1>
+      <table border="2">
+        <caption><b>Massas do sistema solar</b></caption>
+        <thead>
+          <tr>
+            <th>Componente</th>
+            <th>Massa</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Sol</td>
+            <td>99,85%</td>
+          </tr>
+          <tr>
+            <td>Júpiter</td>  
+            <td>0,10%</td>
+          </tr>
+          <tr>
+            <td>Demais Planetas</td>
+            <td>0,04%</td>
+          </tr>
+          <tr>
+            <td>Cometas</td>  
+            <td>0,01% (?)</td>
+          </tr>
+          <tr>
+            <td>Satélites e anéis</td>  
+            <td>0,000 05%</td>
+          </tr>
+          <tr>
+            <td>Asteroides</td>
+            <td>0,000 000 2%</td>
+          </tr>
+          <tr>
+            <td>Meteoritos e poeira</td>  
+            <td>0.000 000 1% (?)</td>
+          </tr>
+        </tbody>       
+      </table>
+      <h1>Viagens Espaciais</h1>
+      <p>Conheça algumas pessoas que já participaram de viagens espaiciais.</p>
+      <ul>
+        <li><strong>1961–1979</strong></li>
+        <br>
+          <ul>
+            <li><strong>Yuri Gagarin</strong></li>
+            <br>
+              <ul>
+                <li><strong>Pais:</strong> União Sovietica</li>
+                <li><strong>Ano:</strong> 1961</li>
+                <li><strong>Nave:</strong> Vostok 1</li>
+                <li><strong>Fato interessante:</strong> Primeiro homem no espaço</li>
+              </ul>
+              <br>
+            <li><strong>John Glenn</strong></li>
+            <br>
+              <ul>
+                <li><strong>Pais:</strong> Estados Unidos</li>
+                <li><strong>Ano: </strong> 1962</li>
+                <li><strong>Nave:</strong> Friendship 7</li>
+                <li><strong>Fato interessante:</strong> Primeiro norte-americano em órbita</li>
+              </ul>
+          </ul>
+          <br>
+        <li><strong>1980–1999</strong></li>
+        <br>
+          <ul>
+            <li><strong>Bertalan Farkas</strong></li>
+            <br>
+              <ul>
+                <li><strong>Pais:</strong> Hungia</li>
+                <li><strong>Ano:</strong> 1980</li>
+                <li><strong>Nave:</strong> Soyuz 36 / Salyut 6</li>
+                <li><strong>Fato interessante:</strong> Primeiro cosmonauta da Hungria.</li>
+              </ul>
+              <br>
+            <li><strong>Yuri Malenchenko</strong></li>
+            <br>
+              <ul>
+                <li><strong>Pais:</strong> Rússia</li>
+                <li><strong>Ano:</strong> 1994</li>
+                <li><strong>Nave:</strong> Soyuz TM-19 / Mir</li>
+                <li><strong>Fato interessante:</strong>  Primeira pessoa a casar no espaço, em 2003. A noiva estava no Texas.</li>
+              </ul>
+          </ul>
+      </ul>
+      <h1>Inscreva-se</h1>
+      <form>
+        <label for="fname">Você gostou da página?</label>
+        <br>
+        <input type="radio" id="yes" name="choose_yes" value="SIM">
+        <label for="yes">SIM</label><br>
+        <input type="radio" id="no" name="choose_no" value="NÃO">
+        <label for="no">NÃO</label><br>
+        <br>
+        <label for="fname">Nome:</label>
+        <br>
+        <input type="text">
+        <br>
+        <label for="lname">Sobrenome:</label>
+        <br>
+        <input type="text">
+        <br><br>
+        <input type="Submit" value="Cadastrar">
+      </form>
+      <h3>Encontre no Google</h3>
+      <form target="_blank" action="https://www.google.com/search" method="get">
+        <label for="query">O que deseja pesquisar?</label>
+        <input id="query" type="text" name="q" placeholder="Nasa, SpaceX..." required /> 
+        <!--q é abreviação de "query"
+        O atributo required serve para que o campo da pesquisa não fique em branco, ou seja
+        requer obrigatoriedade de preenchimento-->
+        <input type="submit" value="Pesquisar" />
+    </form>
+    </body>
+  </html>
